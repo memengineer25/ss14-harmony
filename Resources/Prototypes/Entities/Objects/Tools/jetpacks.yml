@@ -236,11 +236,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi
     slots:
       - Back
       - suitStorage # Harmony

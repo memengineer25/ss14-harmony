@@ -267,6 +267,19 @@
   products:
     UnstableMutagen: 3
 
+# Harmony alt recipe
+- type: reaction
+  id: UnstableMutagenTritiumAlt
+  reactants:
+    Tritium:
+      amount: 4
+    Phosphorus:
+      amount: 1
+    Chlorine:
+      amount: 1
+  products:
+    UnstableMutagen: 6
+
 - type: reaction
   id: Oil
   reactants:

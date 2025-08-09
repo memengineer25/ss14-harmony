@@ -233,6 +233,7 @@
   parent: [BaseJetpack, BaseSecurityContraband]
   name: security jetpack
   suffix: Empty
+  description: A jetpack with additional attachment points for security use. It can hold 2.5 L of gas.
   components:
   - type: Item
     sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi #Harmony Spritepath

@@ -227,7 +227,6 @@
         - 0.307706858 # oxygen
         - 0.307706858 # nitrogen
 
-# Start of Harmony changes
 #Empty security
 - type: entity
   id: JetpackSecurity
@@ -236,20 +235,22 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi #Harmony Spritepath
   - type: Sprite
-    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi #Harmony Spritepath
   - type: Clothing
-    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Harmony/Objects/Tanks/Jetpacks/security.rsi #Harmony Spritepath
+    #Start of Harmony changes
     slots:
       - Back
-      - suitStorage # Harmony
-      - Belt # Harmony
+      - suitStorage
+      - Belt
   - type: GasTank
     outputPressure: 42.6
     air:
       # volume: 5
-      volume: 2.5 # Harmony
+      volume: 2.5
+       # End of Harmony changes
 
 #Filled security
 - type: entity
@@ -260,6 +261,7 @@
   components:
   - type: GasTank
     outputPressure: 42.6
+    # Start of Harmony changes
     air:
       # 6 minutes of thrust (Harmony)
       # volume: 5
@@ -270,7 +272,7 @@
         # - 1.025689525 # nitrogen
         - 0.512844763 # oxygen
         - 0.512844763 # nitrogen
-# End of Harmony changes
+         # End of harmony changes
 
 #Empty void
 - type: entity

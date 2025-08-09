@@ -12,3 +12,43 @@
       amount: 1
   products:
     Barozine: 2
+
+- type: reaction
+  id: OpporozidoneFrezonAlt
+  minTemp: 400
+  reactants:
+    Frezon:
+      amount: 3
+    Plasma:
+      amount: 2
+    Doxarubixadone:
+      amount: 1
+  products:
+    Opporozidone: 3
+
+- type: reaction
+  id: NecrosolFrezonAlt
+  impact: Medium
+  minTemp: 370
+  reactants:
+    Blood:
+      amount: 2
+    Frezon:
+      amount: 2
+    Cryoxadone:
+      amount: 2
+  products:
+    Necrosol: 2
+
+- type: reaction
+  id: AloxadoneFrezonAlt
+  impact: Medium
+  reactants:
+    Cryoxadone:
+      amount: 2
+    Frezon:
+      amount: 2
+    Leporazine:
+      amount: 1
+  products:
+      Aloxadone: 4

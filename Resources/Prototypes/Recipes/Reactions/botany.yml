@@ -44,17 +44,6 @@
   products:
     Left4Zed: 1
 
-#Harmony alt recipe
-- type: reaction
-  id: Left4ZedTritiumAlt
-  reactants:
-    EZNutrient:
-      amount: 1
-    Tritium:
-      amount: 1
-  products:
-    Left4Zed: 2
-
 - type: reaction
   id: PlantBGone
   reactants:

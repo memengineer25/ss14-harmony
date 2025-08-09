@@ -1,0 +1,11 @@
+- type: reaction
+  id: UnstableMutagenTritiumAlt
+  reactants:
+    Tritium:
+      amount: 4
+    Phosphorus:
+      amount: 1
+    Chlorine:
+      amount: 1
+  products:
+    UnstableMutagen: 6

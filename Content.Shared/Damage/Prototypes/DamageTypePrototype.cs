@@ -28,5 +28,8 @@ namespace Content.Shared.Damage.Prototypes
         /// </summary>
         [DataField("armorFlatPrice")]
         public double ArmorPriceFlat { get; set; }
+
+        [DataField("armorValuePrice")]
+        public double ArmorPriceAV { get; set; }
     }
 }

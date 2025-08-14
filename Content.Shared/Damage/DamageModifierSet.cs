@@ -24,7 +24,10 @@ namespace Content.Shared.Damage
         [DataField("flatReductions", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<float, DamageTypePrototype>))]
         public Dictionary<string, float> FlatReduction = new();
 
-        [DataField("armorValues", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<int, DamageTypePrototype>))]
-        public Dictionary<string, int> ArmorValue = new();
+        /// <summary>
+        /// Harmony damage modifier. Can be applied multiple times to allow for armor-degrading or armor-boosting effects. Ranges typically from 0-5.
+        /// </summary>
+        [DataField("armorClass", customTypeSerializer: typeof(PrototypeIdDictionarySerializer<int, DamageTypePrototype>))]
+        public Dictionary<string, int> ArmorClass = new();
     }
 }

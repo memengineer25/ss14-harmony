@@ -29,7 +29,7 @@ namespace Content.Shared.Damage.Prototypes
         [DataField("armorFlatPrice")]
         public double ArmorPriceFlat { get; set; }
 
-        [DataField("armorValuePrice")]
-        public double ArmorPriceAV { get; set; }
+        [DataField("armorClassPrice")]
+        public double ArmorPriceAC { get; set; }
     }
 }

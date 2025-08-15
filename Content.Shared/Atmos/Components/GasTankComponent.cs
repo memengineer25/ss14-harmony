@@ -7,7 +7,7 @@ namespace Content.Shared.Atmos.Components;
 [RegisterComponent, NetworkedComponent, AutoGenerateComponentState(true)]
 public sealed partial class GasTankComponent : Component, IGasMixtureHolder
 {
-    public const float MaxExplosionRange = 400f; //Harmony - 1984 removed
+    public const float MaxExplosionRange = 400f; //Harmony - cap set to 400 from 26 to effectively uncap the value
     private const float DefaultLowPressure = 0f;
     private const float DefaultOutputPressure = Atmospherics.OneAtmosphere;
 

@@ -29,6 +29,10 @@ namespace Content.Shared.Damage.Prototypes
         [DataField("armorFlatPrice")]
         public double ArmorPriceFlat { get; set; }
 
+        /// <summary>
+        /// Harmony
+        /// The price for each armor class.
+        /// </summary>
         [DataField("armorClassPrice")]
         public double ArmorPriceAC { get; set; }
     }

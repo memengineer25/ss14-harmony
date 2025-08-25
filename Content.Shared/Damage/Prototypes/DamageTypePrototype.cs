@@ -31,7 +31,7 @@ namespace Content.Shared.Damage.Prototypes
 
         /// <summary>
         /// Harmony
-        /// The price for each armor class.
+        /// The price for each increase in armor class.
         /// </summary>
         [DataField("armorClassPrice")]
         public double ArmorPriceAC { get; set; }
